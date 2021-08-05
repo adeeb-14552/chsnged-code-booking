@@ -1,0 +1,26 @@
+form {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  height: 1rem;
+  background-color: wheat;
+}
+select,
+input {
+  text-align: center;
+  width: 30%;
+  height: 70%;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+}
+a:hover {
+  color: tomato;
+}
+.total-cars {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 450px);
+  justify-content: space-evenly;
+}

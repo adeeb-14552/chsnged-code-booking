@@ -1,0 +1,19 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 1px;
+  position: sticky;
+}
+ul > li {
+  list-style-type: none;
+  font-size: 0.5rem;
+  font-weight: bold;
+  font-family: monospace;
+  position: sticky;
+}
+a {
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+}

@@ -1,0 +1,30 @@
+form.Book-cab-form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  height: 12rem;
+  width: 10em;
+  border-radius: 20px;
+  margin: 5px 0px 10px 100px;
+  background-color: rgba(37, 36, 35, 0.931);
+}
+label {
+  width: 100%;
+}
+form.Book-cab-form > label > input {
+  width: 90%;
+  height: 5em;
+  font-size: 0.4em;
+}
+button.Book-cab-btn {
+  width: 80%;
+  height: 1rem;
+  background-color: brown;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 0.6em;
+}
+button.Book-cab-btn:hover {
+  box-shadow: -5px 5px 0px rgb(242, 241, 243);
+}
