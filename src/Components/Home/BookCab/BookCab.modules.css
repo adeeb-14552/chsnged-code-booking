@@ -1,12 +1,12 @@
 form.Book-cab-form {
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
+  border: none;
   height: 12rem;
   width: 10em;
   border-radius: 20px;
   margin: 5px 0px 10px 100px;
-  background-color: rgba(37, 36, 35, 0.931);
+  background-color: rgba(44, 39, 34, 0.212);
 }
 label {
   width: 100%;
@@ -19,12 +19,13 @@ form.Book-cab-form > label > input {
 button.Book-cab-btn {
   width: 80%;
   height: 1rem;
-  background-color: brown;
+  background-color: rgb(107, 40, 40);
   border: none;
   border-radius: 10px;
   color: white;
+  font-family: monospace;
   font-size: 0.6em;
 }
 button.Book-cab-btn:hover {
-  box-shadow: -5px 5px 0px rgb(242, 241, 243);
+  box-shadow: -5px 5px 0px rgb(240, 113, 39);
 }

@@ -1,21 +1,32 @@
 img {
   height: 350px;
   width: 100%;
-  z-index: -10;
+  z-index: 1;
   position: relative;
 }
 
 .desc-overlay {
   display: flex;
   flex-direction: row;
-  font-size: 20px;
-  z-index: 10px;
-  background-color: rgba(245, 222, 179, 0.664);
-  position: absolute;
+  font-size: 18px;
+  z-index: 100;
+  background-color: rgba(39, 39, 36, 0.94);
+  position: relative;
   height: 1.5rem;
-  width: 450px;
-  color: rgb(14, 13, 13);
+  width: 350px;
+  color: rgb(251, 251, 251);
   font-family: Arial, Helvetica, sans-serif;
   justify-content: space-evenly;
   margin-top: -87px;
+}
+button.rent-btn {
+  height: 60%;
+  width: 30%;
+  align-self: center;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+}
+button.rent-btn:hover {
+  box-shadow: -3px 5px 5px rgb(212, 173, 123);
 }

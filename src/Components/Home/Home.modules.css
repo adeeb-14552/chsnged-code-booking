@@ -1,5 +1,6 @@
 .Home-page {
   height: 100vh;
+  width: 100vw;
 }
 h1 {
   transition: width 2s;
@@ -16,9 +17,28 @@ h1:hover {
   gap: 10px;
 }
 .ride-btns > button {
-  background-color: chocolate;
+  background-color: rgb(107, 40, 40);
   border: none;
   border-radius: 10px;
-  height: 0.7rem;
+  height: 1.4rem;
   width: 30%;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 0.5rem;
+  color: white;
+}
+div.hme {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+div.vhme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 150px));
+  grid-template-rows: auto auto;
+}
+div.hme-v img {
+  height: 2rem;
+  width: 2rem;
 }

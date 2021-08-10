@@ -3,16 +3,11 @@ import useFetch from "react-fetch-hook";
 import axios from "axios";
 import "./BookCab.modules.css";
 function BookCab() {
-  const { data } = useFetch(
-    "https://apis.mapmyindia.com/advancedmaps/v1/51ddfb31341725b93c19609dda1f80e0/distance_matrix/driving/17.385044%20%2C78.486671%3B17.0005%2C%2081.8040?sources=0%3B1&rtype=0&destinations=2%3B3&region=IND"
-  );
   useEffect(() => {
     axios
-      .get(
-        "https://apis.mapmyindia.com/advancedmaps/v1/51ddfb31341725b93c19609dda1f80e0/distance_matrix/driving/17.385044%20%2C78.486671%3B17.0005%2C%2081.8040?sources=0%3B1&rtype=0&destinations=2%3B3&region=IND"
-      )
+      .get("")
       .then((res) => {
-        return console.log(res.distance);
+        return console.log(res.data);
       })
       .catch((error) => console.log(error));
   });
