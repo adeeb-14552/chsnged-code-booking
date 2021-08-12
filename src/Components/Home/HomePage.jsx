@@ -2,11 +2,15 @@ import React, { useState, useEffect } from "react";
 import "./Home.modules.css";
 import BookCab from "./BookCab/BookCab";
 import RentalPage from "../Rental/RentalPage";
-function HomePage() {
+import Navigation from "../Navigation/Navigation";
+
+
+export const HomePage =() => {
   const [rideOption, setRideOption] = useState("");
   const rideHandler = (option) => {
     setRideOption(option);
   };
+  
   const HomeOptionComponent = (
     <div className="hme">
       <div className="About us"></div>
@@ -62,7 +66,9 @@ function HomePage() {
       ) : (
         HomeOptionComponent
       )}
+      
     </div>
+    
   );
 }
 

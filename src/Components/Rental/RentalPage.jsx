@@ -9,6 +9,7 @@ import {
 import "./RentalPage.modules.css";
 import SelectedMode from "../SingleItem/SelectedMode";
 import SingleItem from "../SingleItem/SingleItem";
+
 function RentalPage() {
   const dispatch = useDispatch();
   const cArray = useSelector((state) => state.filter);
